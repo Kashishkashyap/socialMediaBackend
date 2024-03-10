@@ -29,6 +29,12 @@ List of routes and their descriptions go here.
 - `GET /v1/api/posts/:id` Description: Get post by ID
 - `PUT /v1/api/posts/:id` Description: Update post by ID
 - `DELETE /v1/api/posts/:id` Description: Delete post by ID
+- - `POST /v1/api/follow/:id` Description: Follow a user by ID
+- `DELETE /v1/api/follow/:id` Description: Unfollow a user by ID
+- `GET /v1/api/follow/following` Description: Get list of users following the authenticated user
+- `GET /v1/api/follow/followers` Description: Get list of users the authenticated user is following
+- `GET /v1/api/feed` Description: Get posts from users that the authenticated user follows
+
 
 ## Middleware
 List of middleware and their descriptions go here.
